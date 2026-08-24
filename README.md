@@ -9,7 +9,10 @@ Unlike a basic meeting summarizer that produces only a paragraph of generated te
 Every extracted action item and decision can be traced back to supporting transcript evidence, making the system more **auditable, verifiable, and useful for real-world action tracking**.
 
 ---
-## Demo
+## Dashboard
+<img width="1901" height="960" alt="Screenshot 2026-08-24 202050" src="https://github.com/user-attachments/assets/3383d2f8-9204-4ae9-87af-bfb275f13a84" />
+
+## Transcribe Audio
 <img width="1897" height="905" alt="Screenshot 2026-08-24 204558" src="https://github.com/user-attachments/assets/fb3fc6d1-9a7c-4da6-8956-9438f779e46a" />
 ---
 
