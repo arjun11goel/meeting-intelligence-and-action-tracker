@@ -9,34 +9,9 @@ Unlike a basic meeting summarizer that produces only a paragraph of generated te
 Every extracted action item and decision can be traced back to supporting transcript evidence, making the system more **auditable, verifiable, and useful for real-world action tracking**.
 
 ---
-
 ## Demo
-
-![MeetingMind Dashboard](docs/screenshots/Screenshot 2026-08-24 202050.png)
-![MeetingMind Dashboard](docs/screenshots/Screenshot 2026-08-24 204558.png)
-
+<img width="1897" height="905" alt="Screenshot 2026-08-24 204558" src="https://github.com/user-attachments/assets/fb3fc6d1-9a7c-4da6-8956-9438f779e46a" />
 ---
-
-## Why MeetingMind?
-
-Meetings contain valuable information, but much of it is buried inside unstructured conversations.
-
-A conventional summarizer might answer:
-
-> "What happened in the meeting?"
-
-MeetingMind goes further by answering:
-
-* What was discussed?
-* What decisions were made?
-* What actions need to happen?
-* Who owns each action?
-* What is the deadline?
-* What risks or dependencies were mentioned?
-* What questions remain unresolved?
-* Can each extracted item be supported by the original conversation?
-
-The goal is to transform conversational data into **structured, evidence-backed productivity information**.
 
 ---
 
@@ -294,9 +269,8 @@ meetingmind/
 
 ## Meeting Analysis
 
-<!-- Add screenshot of the main meeting analysis interface -->
+<img width="1410" height="921" alt="Screenshot 2026-08-24 204759" src="https://github.com/user-attachments/assets/a999bc89-84b6-4604-8777-e428876e5a5d" />
 
-![Meeting Analysis](docs/screenshots/Screenshot 2026-08-24 204759.png)
 
 ---
 
@@ -304,7 +278,8 @@ meetingmind/
 
 <!-- Add screenshot showing summary, decisions, action items, etc. -->
 
-![Structured Results](docs/screenshots/Screenshot 2026-08-24 204715.png)
+<img width="1332" height="862" alt="Screenshot 2026-08-24 204715" src="https://github.com/user-attachments/assets/4f64021d-f636-4978-ae8b-cde2241e8f46" />
+
 
 ---
 
@@ -312,7 +287,8 @@ meetingmind/
 
 <!-- Add screenshot showing transcript evidence / grounding results -->
 
-![Evidence Grounding](docs/screenshots/Screenshot 2026-08-24 204732.png)
+<img width="1366" height="808" alt="Screenshot 2026-08-24 204732" src="https://github.com/user-attachments/assets/6ded3b05-b2f2-4360-a964-6ccae3e90fee" />
+
 
 ---
 
@@ -320,88 +296,7 @@ meetingmind/
 
 <!-- Add screenshot of Meeting History page -->
 
-![Meeting History](docs/screenshots/Screenshot 2026-08-24 204851.png)
-
----
-
-# Example Output
-
-MeetingMind converts an unstructured meeting conversation into structured information such as:
-
-```text
-Summary
--------
-The team discussed the upcoming product release, remaining engineering
-work, testing requirements, and the target release timeline.
-
-Decisions
----------
-1. The team will proceed with the planned release after the remaining
-   critical testing is completed.
-
-Action Items
-------------
-1. Complete regression testing
-   Owner: Engineering Team
-   Deadline: Friday
-   Priority: High
-
-2. Prepare release documentation
-   Owner: Product Team
-   Deadline: Before release
-
-Risks
------
-- Regression testing may identify additional blocking issues.
-
-Open Questions
---------------
-- Is the final deployment window confirmed?
-```
-
-The actual output is represented internally through structured Pydantic models rather than relying solely on formatted text.
-
----
-
-# Evidence-Grounded Extraction
-
-One of the main design goals of MeetingMind is to reduce unsupported LLM-generated information.
-
-For example:
-
-```text
-Transcript Evidence
--------------------
-"We need to finish regression testing by Friday."
-
-             │
-             ▼
-
-Extracted Action
-----------------
-Action: Complete regression testing
-Owner: Engineering Team
-Deadline: Friday
-
-             │
-             ▼
-
-Evidence Validation
--------------------
-Supported by transcript: YES
-```
-
-This allows the application to distinguish between:
-
-```text
-LLM-generated statement
-        ↓
-Does supporting evidence exist?
-        ↓
-Validated structured output
-```
-
-rather than treating every model-generated statement as ground truth.
+<img width="1438" height="653" alt="Screenshot 2026-08-24 204851" src="https://github.com/user-attachments/assets/605e6b3e-6d77-4e6a-a502-c413de061dcc" />
 
 ---
 
@@ -562,4 +457,5 @@ The application will open in your browser.
 MCA — VIT Vellore
 
 Email : arjun11goel@gmail.com
+
 Linkedin: https://www.linkedin.com/in/arjun11goel/
