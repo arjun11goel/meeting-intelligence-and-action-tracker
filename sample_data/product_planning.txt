@@ -1,0 +1,29 @@
+Product Planning Meeting - August 24, 2026
+
+Aisha: Thanks everyone for joining. Today we need to finalize the scope for the September onboarding release and resolve the analytics dashboard delay.
+
+Rahul: The onboarding flow is ready for design review. The remaining work is the revised progress indicator and the empty-state screens.
+
+Priya: I can share the updated mockups by Thursday, August 27. I will also include mobile layouts so engineering does not have to make assumptions.
+
+Aisha: Great. Rahul, once Priya shares those, can your team implement the onboarding changes before the September 10 release?
+
+Rahul: Yes, provided the API endpoint for profile completion is stable by August 31. Without that endpoint, our team cannot finish the progress indicator.
+
+Dev: I own that endpoint. We found an edge case in the profile-service migration, but I expect to resolve it by Friday, August 28.
+
+Aisha: Let us record that as a launch risk. Dev will update the team immediately if the August 28 date slips.
+
+Priya: For the analytics dashboard, I propose that we remove the cohort-comparison chart from this release. It is the main source of the delay and we can add it in the October iteration.
+
+Rahul: Engineering agrees. Removing that chart will save roughly four days and lets us keep the rest of the dashboard on schedule.
+
+Aisha: Decision recorded: the September release will not include cohort comparison. Priya, please update the product requirements document and notify stakeholders by Wednesday, August 26.
+
+Dev: One question remains: do we need a feature flag for the new onboarding experience?
+
+Aisha: Good question. Rahul, please investigate the feature-flag requirement with platform engineering and bring a recommendation to our next planning meeting.
+
+Rahul: I will do that.
+
+Aisha: To recap, Priya owns mockups and stakeholder communication, Dev owns the profile-completion endpoint, and Rahul owns the feature-flag recommendation. We will review progress next Monday.

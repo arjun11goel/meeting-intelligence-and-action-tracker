@@ -1,0 +1,55 @@
+[
+  {
+    "id": "release_planning",
+    "transcript": "Release planning meeting. Riya: I will send the API specification to the mobile team by August 29. Arjun: I will investigate the payment failure reports and share findings at the next meeting. Maya: We have decided to move the product launch from September 5 to September 12 because the payment issue is unresolved.",
+    "expected_actions": [
+      {
+        "task_keywords": ["send", "api", "specification"],
+        "owner": "Riya",
+        "due_date": "August 29"
+      },
+      {
+        "task_keywords": ["investigate", "payment", "failure"],
+        "owner": "Arjun",
+        "due_date": null
+      }
+    ],
+    "expected_decisions": [
+      {
+        "keywords": ["move", "launch", "september", "12"]
+      }
+    ]
+  },
+  {
+    "id": "design_review",
+    "transcript": "Design review meeting. Neha: I will update the checkout button contrast and share the revised Figma file by Friday. Kabir: Please confirm whether accessibility testing can happen before the sprint review. Neha: Decision recorded: we will remove the animated banner from version one to reduce implementation risk.",
+    "expected_actions": [
+      {
+        "task_keywords": ["update", "checkout", "contrast"],
+        "owner": "Neha",
+        "due_date": "Friday"
+      }
+    ],
+    "expected_decisions": [
+      {
+        "keywords": ["remove", "animated", "banner", "version"]
+      }
+    ]
+  },
+  {
+    "id": "support_operations",
+    "transcript": "Support operations meeting. Omar: I will prepare a weekly report of unresolved premium tickets by Monday. Sara: The response-time target has been missed for two consecutive weeks. Omar: We decided to assign one support engineer to premium tickets every afternoon until the backlog falls below twenty tickets. Sara: Who will own the weekend escalation rota?",
+    "expected_actions": [
+      {
+        "task_keywords": ["prepare", "weekly", "report", "premium"],
+        "owner": "Omar",
+        "due_date": "Monday"
+      }
+    ],
+    "expected_decisions": [
+      {
+        "keywords": ["assign", "support", "engineer", "premium"]
+      }
+    ]
+  }
+]
